@@ -1,0 +1,44 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333; 
+    color: white;
+  }
+  
+
+  .navbar div:first-child {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+
+  .list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  .list li {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .list li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+
+  .list li a:hover {
+    color: #347fee; 
+  }
+  
